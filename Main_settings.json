@@ -1,0 +1,24 @@
+[
+  {
+    "type": "title",
+    "title": "Settings"
+  },
+  {
+    "type": "string",
+    "title": "username",
+    "desc": "Your username",
+    "section": "main",
+    "key": "username"
+  },
+  {
+    "type": "options",
+    "title": "Language",
+    "desc": "Select your language.",
+    "section": "main",
+    "key": "lang",
+    "options": [
+      "en",
+      "nl"
+    ]
+  }
+]

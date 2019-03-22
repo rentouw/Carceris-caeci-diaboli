@@ -1,0 +1,103 @@
+#:kivy 1.9
+#:import tr __main__.tr
+#:import Factory kivy.factory.Factory
+
+<RootWidget>:
+    info: info_label
+    button_a: a
+    button_b: b
+    button_c: c
+    button_d: d
+    output_box: game_text
+
+    ActionBar:
+        pos_hint: {'top':1}
+        ActionView:
+            use_separator: True
+            ActionPrevious:
+                app_icon: 'data/logo_icon.png'
+                app_icon_height: 100
+                app_icon_width: 100
+                title: 'Carceris caeci diaboli.'
+                with_previous: False
+                on_press: Factory.Popup_icon().open()
+            ActionGroup:
+                text: 'Options'
+                mode: 'spinner'
+                size_hint_x: None
+                width: 90
+                ActionButton:
+                    text: 'Settings'
+                    on_press: app.open_settings()
+                ActionButton:
+                    text: 'Quit'
+                    on_press: app.stop()
+
+    RstDocument:
+        id: game_text
+        pos_hint: {'x':0.005, 'y':0.4}
+        size_hint: 0.990, 0.5
+        text: "Placeholder"
+        readonly: True
+
+    Label:
+        markup: True
+        text: "[b]<--[/b]"
+        text_size: root.width, None
+        size: self.texture_size
+        pos_hint: {'x': 1, 'y': 1}
+        id: point
+
+    Label:
+        id: info_label
+        pos_hint: {'x': 0.005, 'y': -0.18}
+        text_size: root.width, None
+        size: self.texture_size
+        text: "placeholder"
+
+    Button:
+        id: a
+        pos_hint: {'x':0.1, 'y':0.15}
+        size_hint: 0.3, 0.07
+        text: "placeholder"
+        on_press: root.buttona()
+
+    Button:
+        id: b
+        pos_hint: {'x':0.6, 'y':0.15}
+        size_hint: 0.3, 0.07
+        text: "placeholder"
+        on_press: root.buttonb()
+
+    Button:
+        id: c
+        pos_hint: {'x':0.1, 'y':0.05}
+        size_hint: 0.3, 0.07
+        text: "placeholder"
+        on_press: root.buttonc()
+
+    Button:
+        id: d
+        pos_hint: {'x':0.6, 'y':0.05}
+        size_hint: 0.3, 0.07
+        text: "placeholder"
+        on_press: root.buttond()
+
+
+<Popup_icon@Popup>:
+    auto_dismiss: True
+    title: "Info"
+    size_hint: 0.7, 0.7
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            size_hint: 0.9, 0.9
+            text: tr._("Carceris caeci diaboli.\n-------------------------------------\n\nIn this game you will wander around in a dungeon with monsters. You will need to fight and kill for experience and loot.\n\nMade by rentouw.\nAs a POC.")
+            focus: False
+            readonly: True
+        Button:
+            center_x: 1
+            size_hint: 0.2, 0.15
+            text: 'Close'
+            on_release: root.dismiss()
+

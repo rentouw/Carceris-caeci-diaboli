@@ -1,0 +1,13 @@
+[
+  {
+    "type": "title",
+    "title": "Settings"
+  },
+  {
+    "type": "numeric",
+    "title": "Health",
+    "desc": "Your health",
+    "section": "game",
+    "key": "health"
+  }
+]

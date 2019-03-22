@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: main 0.2\n"
+"POT-Creation-Date: 2019-02-10 13:30+0100\n"
+"PO-Revision-Date: 2019-02-10 13:45+0100\n"
+"Last-Translator: Rentouw <rentouw12@gmail.com>\n"
+"Language-Team: Dutch <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: main.py:100 main.py:255 main.py:295 main.py:340
+msgid "left"
+msgstr "links"
+
+#: main.py:101 main.py:256 main.py:296 main.py:341
+msgid "right"
+msgstr "rechts"
+
+#: main.py:102 main.py:257 main.py:297 main.py:342
+msgid "forward"
+msgstr "vooruit"
+
+#: main.py:103
+msgid "inventory"
+msgstr "inventaris"
+
+#: main.py:104
+msgid ""
+"Welcome to Carceris caeci diaboli.\n"
+"=======================================================\n"
+"\n"
+"This is a text based game. Where you are in a dungeon and fight monsters.\n"
+"You move around in the dungeon by pressing the buttons and when you encounter a monster you fight it.\n"
+"You can use items in your inventory to heal or level up faster.\n"
+"\n"
+"\n"
+"Press forward enter the dungeon.\n"
+msgstr ""
+"Welkom bij Carceris caeci diaboli. \n"
+"======================================================= \n"
+"\n"
+"Dit is een op tekst gebaseerd spel, waar je je in een kerker bevindt en vecht tegen monsters. \n"
+"Je beweegt je rond in de kerker door op de knoppen te drukken en als je een monster tegenkomt vecht je ermee. \n"
+"Je kan spullen in uw inventaris gebruiken om sneller te herstellen of sneller naar het volgende level te gaan. \n"
+"\n"
+"\n"
+"Druk vooruit om de kerker binnen te gaan. \n"
+
+#: main.py:123
+msgid ""
+"Username: %s\n"
+"    Health: %s\n"
+"    Attack: %s\n"
+"    Level: %s\n"
+"    Xp: %s"
+msgstr ""
+"Gebruikersnaam: %s\n"
+"    Leven: %s\n"
+"    Aanval: %s\n"
+"    Level: %s\n"
+"    Xp: %s"
+
+#: main.py:136
+msgid ""
+"You have died.\n"
+"            \n"
+"Your level was %s\n"
+"\n"
+"Thanks for playing\n"
+"\n"
+":Authors: rentouw\n"
+":Version: 0.2V 10/02/2019"
+msgstr ""
+"U bent gestorven.\n"
+"\n"
+"Je level was %s\n"
+"\n"
+"Bedankt voor het spelen\n"
+"\n"
+":Auteur: rentouw\n"
+":Versie: 0.2V 10/02/2019"
+
+#: main.py:164
+msgid "You have found a crossroad where you can go "
+msgstr "Je hebt een kruispunt gevonden waar je "
+
+#: main.py:167
+msgid "left, right, or forwards."
+msgstr "links, rechts of vooruit kunt gaan."
+
+#: main.py:169
+msgid "forward or right."
+msgstr "vooruit of rechts kunt gaan."
+
+#: main.py:171
+msgid "left or right."
+msgstr "links of rechts kunt gaan."
+
+#: main.py:173
+msgid "left or forwards."
+msgstr "links of vooruit kunt gaan."
+
+#: main.py:175
+msgid "You can only go right."
+msgstr "Je kan alleen naar rechts gaan."
+
+#: main.py:177
+msgid "You can only go left."
+msgstr "Je kan alleen naar links gaan."
+
+#: main.py:189
+msgid "The monster tries to attack you but misses."
+msgstr "Het monster probeert je aan te vallen maar mist."
+
+#: main.py:194
+msgid "The monster used a strong attack against you."
+msgstr "Het monster gebruikte een sterke aanval tegen jou."
+
+#: main.py:198
+msgid "The monster used a weak attack against you."
+msgstr "Het monster gebruikte een zwakke aanval tegen jou."
+
+#: main.py:205
+msgid "You killed the monster."
+msgstr "Je hebt het monster gedood."
+
+#: main.py:207
+msgid "The monster dropped %s and %s XP."
+msgstr "Het monster liet %s en %s XP vallen"
+
+#: main.py:223
+msgid "There is a monster around the corner which jumps you."
+msgstr "Er is een monster om de hoek dat je bespringt."
+
+#: main.py:230
+msgid "You enter the hallway to your left."
+msgstr "Je gaat de linkse gang binnen."
+
+#: main.py:238 main.py:277 main.py:325
+msgid "weak attack"
+msgstr "zwakke aanval"
+
+#: main.py:239 main.py:278 main.py:326
+msgid "strong attack"
+msgstr "sterke aanval"
+
+#: main.py:240 main.py:279 main.py:327
+msgid "run"
+msgstr "vluchten"
+
+#: main.py:246 main.py:286
+msgid "You tried to attack the monster but failed."
+msgstr "Je probeerde het monster aan te vallen maar faalde."
+
+#: main.py:249 main.py:289
+msgid "You attack the monster"
+msgstr "Je valt het monster aan"
+
+#: main.py:251 main.py:291
+msgid "The monsters health is %s now."
+msgstr "De gezondheid van monsters is nu %s."
+
+#: main.py:269
+msgid "You enter the hallway to your right."
+msgstr "Je gaat de rechtse gang binnen."
+
+#: main.py:310
+msgid "You enter the dungeon."
+msgstr "Je gaat de kerker binnen."
+
+#: main.py:317
+msgid "You keep walking forward."
+msgstr "Je blijft vooruit gaan."
+
+#: main.py:336
+msgid "You successfully ran around the monster without it grabbing you."
+msgstr "Je bent met succes rond het monster gegaan zonder dat het je greep."
+
+#: main.py:346
+msgid "You tried to run around the monster but it garbed you and throws you against the wall."
+msgstr "Je probeerde rond het monster te rennen, maar het pakte je en gooide je tegen de muur."
+
+#: main.py:355
+msgid ""
+"Inventory\n"
+"        =================\n"
+"        Potion = %s\n"
+"        Flesh = %s\n"
+"        Gold nugget = %s\n"
+"        Bone = %s\n"
+"        Dust = %s\n"
+"        "
+msgstr ""
+"Inventaris\n"
+"        =================\n"
+"        Drankje = %s\n"
+"        Vlees = %s\n"
+"        Goudklompje = %s\n"
+"        Bot = %s\n"
+"        Stof = %s\n"
+"        "
+
+#: main.py:371
+msgid ""
+"Carceris caeci diaboli.\n"
+"-------------------------------------\n"
+"\n"
+"In this game you will wander around in a dungeon with monsters. You will need to fight and kill for experience and loot.\n"
+"\n"
+"Made by rentouw.\n"
+"As a POC."
+msgstr ""
+"Carceris caeci diaboli.\n"
+"-------------------------------------\n"
+"\n"
+"In dit spel dwaal je rond in een kerker met monsters, je zult moeten vechten en moorden voor ervaring en buit.\n"
+"\n"
+"Gemaakt door rentouw.\n"
+"Als een POC."
